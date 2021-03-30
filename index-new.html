@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock,Paper,Scissors</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="head-container">
+        <h1 class="title">Rock Paper Scissors</h1>
+        <p>The winner is first to 5 points</p>
+    </div>
+    <div class="game-container">
+        <div class="player-container">
+            <h1 class="player-name">Human</h1>
+            <div class="player-inner-container">
+                <div class="profile">
+                    <div class="player-pic">
+                        <img src="img/user-solid-grey.svg" height="35px" />
+                    </div>
+                    <div class="score player-score">
+                        <h3>Score</h3>
+                        <h2 class="user-score">0</h2>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <div class="btn btn-user user-rock" data-button="rock">
+                        <img src="img/hand-rock-grey.svg" height="30px" />
+                        <h3>Rock</h3>
+                    </div>
+                    <div class="btn btn-user user-paper" data-button="paper">
+                        <img src="img/hand-paper-grey.svg" height="30px" />
+                        <h3>Paper</h3>
+                    </div>
+                    <div class="btn btn-user user-scissors" data-button="scissors">
+                        <img src="img/hand-scissors-grey.svg" height="30px" />
+                        <h3>Scissors</h3>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <div class="player-container">
+            <h1 class="player-name">Computer</h1>
+            <div class="player-inner-container">
+                <div class="profile">
+                    <div class="player-pic">
+                        <img src="img/laptop-solid-grey.svg" height="35px" />
+                    </div>
+                    <div class="score thecomputer-score">
+                        <h3>Score</h3>
+                        <h2 class="computer-score">0</h2>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <div class="btn computer-rock">
+                        <img src="img/hand-rock-grey.svg" height="30px" />
+                        <h3>Rock</h3>
+                    </div>
+                    <div class="btn computer-paper">
+                        <img src="img/hand-paper-grey.svg" height="30px" />
+                        <h3>Paper</h3>
+                    </div>
+                    <div class="btn computer-scissors">
+                        <img src="img/hand-scissors-grey.svg" height="30px" />
+                        <h3>Scissors</h3>
+                    </div>                    
+                </div>            
+            </div>
+        </div>
+    </div>
+    <div class="result-container">
+    </div>
+
+<script type="text/javascript" src="main.js">
+</script>
+</body>
+</html>

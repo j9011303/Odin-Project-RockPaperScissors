@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.5), rgba(36, 36, 36, 0.5)),
+                    url("https://besthqwallpapers.com/Uploads/17-3-2020/124952/thumb2-4k-black-brickwall-close-up-black-bricks-bricks-textures.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+body{
+    min-width: 300px;
+}
+
+
+.head-container {
+    text-align: center;
+    margin: 30px;
+
+}
+
+.head-container p {
+    font-size: 2rem;
+    margin-top:10px;
+    color:#ffb900;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+
+
+/* 2 Player Areas not including R-P-S buttons */
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-name {
+    text-align: center;
+}
+
+.player-container {
+    border: 2px solid white;
+    margin: 20px;
+    background-color: rgb(31, 39, 65);
+    border-radius: 5px;
+    width: 400px;
+}
+
+
+
+.profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 0 25px;
+    padding-bottom: 5px;
+}
+
+
+.player-pic {
+    display: flex;
+    align-self: center;
+    margin: 5px 0 0 15px;
+}
+
+.score {
+    text-align: center;
+    margin: 3px 5px 0 0;
+}
+
+.user-score,
+.computer-score {
+    font-size: 2rem;
+    color:#ffb900;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    border: 2px solid white;
+    width:80px;
+    height: 80px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 15px;
+    background-color: rgb(36, 35, 35);
+}
+
+.endbtn {
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(31, 39, 65);
+    margin: 30px auto;
+}
+
+.endbtn:hover {
+    border:2px solid orange;
+    box-shadow: 0px 1px 5px 0px #ffb900;
+    cursor: pointer;
+}
+
+.btn-user:hover {
+    border:2px solid orange;
+    box-shadow: 0px 1px 5px 0px #ffb900;
+    cursor: pointer;
+}
+
+
+.btn-pick {
+    border: 1px solid #ffb900;
+    -webkit-box-shadow: 0px 1px 5px 0px #ffb900;
+            box-shadow: 0px 1px 5px 0px #ffb900;
+    -webkit-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.result-text {
+    font-size: 2rem;
+    color:#ffb900;
+}
+
+.round-result {
+    color: #ffb900;
+    font-size: 1.6em;
+    padding: 15px;
+    text-align: center;
+}
